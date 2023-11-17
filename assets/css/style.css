@@ -1,0 +1,65 @@
+/*p1.html*/
+section{
+    margin: 20px;
+    padding: 20px;
+    height: 100px;
+    width: 400px;
+    box-shadow: -3px -3px 3px #ccc,3px 3px 3px #ccc;
+    border-radius:10px ;
+    transition: 1s;
+}
+.translate:hover{
+ transform:translate(100px,100px);/*FOR BOTH X,Y AXIS */
+}
+.translateX:hover{
+    transform:translateX(100px);/*X AXIS */
+   }
+.translateY:hover{
+    transform:translateY(100px);/*FOR Y AXIS */
+   }
+
+
+/*p2.HTML*/
+
+.scale:hover{
+    transform: scale(2,2);/*FOR X,Y AXIS */
+}
+.scaleX:hover{
+    transform: scaleX(2);/*FOR X AXIS ONLY */
+}
+.scaleY:hover{
+    transform: scaleY(2);/*FOR Y AXIS ONLY */
+}
+
+
+/*P3.HTML*/
+
+.rotate:hover{
+    transform: rotate(45deg);/*FOR X,Y AXIS */
+}
+.rotateX:hover{
+    transform: rotateX(180deg);/*FOR X AXIS */
+}
+.rotateY:hover{
+    transform: rotateY(180deg);/*for y axis */
+}
+
+
+/*p4.html*/
+.skew:hover{
+    transform: skew(30deg, 20deg);/*for x,y axis */
+}
+.skewX:hover{
+    transform: skewX(20deg);/*for x axis */
+}
+.skewY:hover{
+    transform: skewY(20deg);/*for y axis */
+}
+
+/*p5.html*/
+.matrix1:hover{
+    transform: matrix(2,0,0,2,120,300);
+}
+.matrix2:hover{
+    transform: matrix(1,2,-1,1,80,80);
+}
